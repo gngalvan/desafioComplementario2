@@ -63,27 +63,11 @@ img{
 span{
 	font-weight: bold;
 }
-.contacto{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-}
-
-.form{
-	
-	display: grid;
-	width: 120%;
-}
-
-.mapa{
-	display: grid;
-	margin-left: 100px;
-	width: 70%;
-}
 
 /*footer*/
 
 footer{
-	margin-top: 30px;
+	margin-top: 90px;
 	background-color: black;
 	color: white;
 	font-family: 'Nunito', sans-serif;

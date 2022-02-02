@@ -73,42 +73,44 @@
     </header>
 
     <main>
-        <div class="row contacto">
-            <div class="col-md-6 mapa">
-                <h4>Sobre nosotros</h4>
-                <p>Somos una empresa dedicada a la creación de remeras con diseños populares y personalizados
-                    Nos ubicamos en: <span>Cecilia Grierson 100, Puerto Madero</span>.
-                </p>
-                <div style="width: 100%"><iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=cecilia%20grierson%20100,%20puerto%20madero+(Mi%20nombre%20de%20egocios)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
-                <a href="https://www.gps.ie/car-satnav-gps/">Car GPS</a></iframe>
-                </div>
+        <div class="container mt-4">
+            <div class="row justify-content-center">
+                <div class="col-md-5">
+                    <h4>Sobre nosotros</h4>
+                    <p>Somos una empresa dedicada a la creación de remeras con diseños populares y personalizados
+                        Nos ubicamos en: <span>Cecilia Grierson 100, Puerto Madero</span>.
+                    </p>
+                    <div style="width: 100%"><iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=cecilia%20grierson%20100,%20puerto%20madero+(Mi%20nombre%20de%20egocios)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                    <a href="https://www.gps.ie/car-satnav-gps/">Car GPS</a></iframe>
+                    </div>
 
-            </div>
-            <div class="col-md-6">
-                <h4>Contactanos:</h4>
-                <form class="contact-form form" method="post" onsubmit="$(this).attr('action', '');"
-                    data-store="contact-form">
-                    <input type="hidden" value="" name="product">
-                    <input type="hidden" name="type" value="contact">
-                    <div class="form-group">
-                        <label for="name">Nombre:</label>
-                        <input type="text" class="form-control" id="name" name="name">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input type="email" class="form-control" id="email" name="email">
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Teléfono (Opcional):</label>
-                        <input type="text" class="form-control" id="phone" name="phone">
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Mensaje (Opcional):</label>
-                        <textarea id="message" name="message" class="form-control" rows="7"></textarea>
-                    </div>
-                    <input type="submit" class="btn btn-secondary full-width-xs pull-right" value="Enviar"
-                        name="contact">
-                </form>
+                </div>
+                <div class="col-md-5">
+                    <h4>Contactanos:</h4>
+                    <form class="contact-form form" method="post" onsubmit="$(this).attr('action', '');"
+                        data-store="contact-form">
+                        <input type="hidden" value="" name="product">
+                        <input type="hidden" name="type" value="contact">
+                        <div class="form-group">
+                            <label for="name">Nombre:</label>
+                            <input type="text" class="form-control" id="name" name="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Teléfono (Opcional):</label>
+                            <input type="text" class="form-control" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje (Opcional):</label>
+                            <textarea id="message" name="message" class="form-control" rows="7"></textarea>
+                        </div>
+                        <input type="submit" class="btn btn-secondary full-width-xs pull-right" value="Enviar"
+                            name="contact">
+                    </form>
+                </div>
             </div>
         </div>
     </main>
