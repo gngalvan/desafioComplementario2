@@ -1,3 +1,4 @@
+/* menu */
 
 .navbar{
 	position: fixed;
@@ -5,64 +6,54 @@
 	font-family: 'Nunito', sans-serif;
 	z-index: 1;
 }
-
 .navbar-brand{
 	padding: 10px;
 }
 
-/*.colorSearch{
-	color: whitesmoke;
-	border-color: whitesmoke;
-}*/
+
+
+/* diseño general */
 
 main{
 	padding-top: 100px;
 	font-family: 'Nunito', sans-serif;
 }
-
 h1{
 	display: flex;
 	justify-content: center;
 	font-weight: bold;
 }
-
 h2{
 	display: flex;
 	justify-content: center;
 }
-
 .row{
 	gap: 20px;
 }
 
+
+
+/* card */
+
 .cardInicio{
 	border: solid 1px black;
 	border-radius: 10px;
-	width: 49%;
 }
-
-
-
-.cardOtrasOfertas{
-	border: solid 1px black;
-	border-radius: 10px;
-	width: 30%;
-}
-.cardOfertas{
-	border: solid 1px black;
-	border-radius: 10px;
-	width: 46%;
-}
-
 img{
 	width: 100%;
 }
+
+
+
 
 /* form */
 
 span{
 	font-weight: bold;
 }
+
+
+
 
 /*footer*/
 
@@ -73,23 +64,19 @@ footer{
 	font-family: 'Nunito', sans-serif;
 	width: 100%;
 }
-
 footer a{
 	margin: 10px;
 }
-
 footer h4{
 	display: flex;
 	justify-content: center;
 	padding: 20px;
 }
-
 footer h6{
 	display: flex;
 	justify-content: center;
 	padding: 20px;
 }
-
 footer div{
 	display: flex;
 	justify-content:center;
@@ -98,4 +85,14 @@ footer div{
 .subtitulo{
 	display: flex;
 	justify-content: center;
+}
+
+
+
+/* media query */
+@media  (max-width: 576px) {
+	.cardInicio{
+		margin-top: 10px;
+		width: 80%;
+	}
 }
